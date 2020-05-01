@@ -1,0 +1,186 @@
+html {
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Helvetica;
+	color: #080849;
+}
+
+header {
+	width: 100%;
+	background-color: white;
+	border-bottom: 2px solid #080849;
+	display: flex;
+}
+
+ol {
+	width: 100%;
+	border-top: solid 1px red;
+	border-bottom: solid 1px red;
+	padding: 10px;
+	
+}
+
+ol li {
+	text-decoration: none;
+	font-size: 1.25rem;
+	text-transform: italic;
+	text-shadow: 1px 1px 1px red;
+	padding: 5px 0px;
+}
+
+nav {
+	margin: 0px auto;
+	width: 1200px;
+	height: 50px;
+	font-size: 1.5rem;
+	text-align: center;
+}
+nav li {
+	display: inline;
+	padding: 10px 40px;
+	margin: 10px;
+	border-top: 1px solid red;
+	border-right: 2px solid #080849;
+	border-bottom: 2px solid #080849;
+	border-left: 1px solid red;
+	border-radius: 3px;
+	font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color: red;
+}
+
+a:visited {
+	color: red;
+}
+
+a:hover {
+	color: #080849;
+}
+
+main {
+	margin: 0 auto;
+	width: 1206px;
+	height: 980px;
+	text-align: center;
+	background-image: url(revolution.jpg);
+	background-size: stretch;
+	background-attachment: fixed;
+	padding-top: 60px;
+	border-top: 2px solid #080849;
+	border-bottom: 2px solid #080849;
+}
+
+#flag {
+	margin: 0 auto;
+	width: 1200px;
+	display: grid;
+	color: white;
+	background-color: white;
+	border: solid 3px black;
+	border-radius: 4px;
+	margin: 30px auto;
+	grid-template-columns: 400px 800px;
+	grid-template-rows: 300px 350px;
+}
+
+#stars {
+	background-color: #080849;
+	height: 300px;
+	width: 400px;
+	grid-columns: 100%;
+	grid-template-columns: 1fr;
+	grid-template-rows: repeat(9 1fr);
+	align-items: space-around;	
+	justify-content: center;
+}
+
+.row {
+	width: 100%;
+	padding: 4px 0 5px 0;
+}
+
+.star {
+	width: 20px;
+	height: 20px;
+	display: inline-flex;
+	margin: 0 20px;
+	background-image: url("star.png");
+	background-size: contain;
+}
+
+#upper {
+	grid-columns: 2 / 3;
+}
+
+#lower {
+	
+	grid-columns: 1 / span 2;
+	grid-rows: 2 / span 1;
+	width: 1200px;
+}
+
+.stripes {
+	margin: 0;
+	width: 100%;
+}
+
+.red {
+	
+	font-family: "Freestyle Script";
+	font-size: 2.75rem;
+	background-color: red;
+	height: 50px;
+	width: 100%;
+	text-align: right;
+	text-indent: 30px;
+}
+
+.bold {
+	font-weight: bolder;
+	font-size: 1.1em;
+}
+
+.reddot {
+	padding: 0 10px;
+	color: red;
+}
+
+.white {
+	background-color: white;
+	height: 50px;
+	width: 100%;
+}
+
+.painting {
+	float: right;
+	font-size: 0.75rem;
+	color: red;
+	padding: 3px 80px 3px 3px;
+}
+
+#writing {
+	padding: 30px;
+}
+
+#contact {
+	margin: 40px 30px 120px 30px;
+}
+
+footer {
+	width: 100;
+	display: flex;
+}
+
+.completed {
+	font-size: 0.75rem;
+	text-align: center;
+	font-weight: bold;
+	padding-top: 10px;
+}
